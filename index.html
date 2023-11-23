@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	<title>Calculadora</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="calculator">
+
+			<table>
+				<tr>
+					<td colspan="4">
+						<input type="text" id="display" readonly>
+					</td>
+				</tr>
+				<!-- Primeira Linha -->
+				<tr>
+					<td><button class="calculatorButtons" id="cleanDisplay" value="C">C</td>
+					<td><button class="calculatorButtons" id="deleteDigit" value="CE">CE</td>
+					<td><button class="calculatorButtons" id="division" value="/">&divide;</td>
+					<td><button class="calculatorButtons" id="multiplication" value="*">&times;</td>
+				</tr>
+				<!-- Segunda Linha -->
+				<tr>
+					<td><button class="calculatorButtons" id="n7" value="7">7</td>
+					<td><button class="calculatorButtons" id="n8" value="8">8</td>
+					<td><button class="calculatorButtons" id="n9" value="9">9</td>
+					<td><button class="calculatorButtons" id="subtraction" value="-">-</td>
+				</tr>
+				<!-- Terceira Linha -->
+				<tr>
+					<td><button class="calculatorButtons" id="n4" value="4">4</td>
+					<td><button class="calculatorButtons" id="n5" value="5">5</td>
+					<td><button class="calculatorButtons" id="n6" value="6">6</td>
+					<td><button class="calculatorButtons" id="sum" value="+">+</td>
+				</tr>
+				<!-- Quarta Linha -->
+				<tr>
+					<td><button class="calculatorButtons" id="n1" value="1">1</td>
+					<td><button class="calculatorButtons" id="n2" value="2">2</td>
+					<td><button class="calculatorButtons" id="n3" value="3">3</td>
+					<td rowspan="2"><button class="calculatorButtons" id="result" value="=">=</td>
+				</tr>
+				<!-- Quinta Linha -->
+				<tr>
+					<td colspan="2"><button class="calculatorButtons" id="n0" value="0">0</td>
+					<td><button class="calculatorButtons" id="point" value=".">.</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+
+</html>
